@@ -19,7 +19,7 @@ Now you can plot countries by specifying their code (see below for the big list 
 
 .. pygal-code::
 
-  worldmap_chart = pygal.maps.world.World()
+  worldmap_chart = pygal_maps_world.maps.World()
   worldmap_chart.title = 'Some countries'
   worldmap_chart.add('F countries', ['fr', 'fi'])
   worldmap_chart.add('M countries', ['ma', 'mc', 'md', 'me', 'mg',
@@ -33,7 +33,7 @@ You can also specify a value for a country:
 
 .. pygal-code::
 
-  worldmap_chart = pygal.maps.world.World()
+  worldmap_chart = pygal_maps_world.maps.World()
   worldmap_chart.title = 'Minimum deaths by capital punishement (source: Amnesty International)'
   worldmap_chart.add('In 2012', {
     'af': 14,
@@ -64,7 +64,7 @@ You have also access to continents:
 
 .. pygal-code::
 
-        supra = pygal.maps.world.SupranationalWorld()
+        supra = pygal_maps_world.maps.SupranationalWorld()
         supra.add('Asia', [('asia', 1)])
         supra.add('Europe', [('europe', 1)])
         supra.add('Africa', [('africa', 1)])
